@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+body{margin:0;background:oklch(0.985 0.006 95)}
+a{color:oklch(0.45 0.14 250);text-decoration:none}
+a:hover{color:oklch(0.36 0.14 250)}
+</style>
+</helmet>
+<div style="font-family:'IBM Plex Sans',sans-serif;color:oklch(0.26 0.02 250);background-color:oklch(0.985 0.006 95);min-height:100%">
+
+<header style="position:relative;display:flex;align-items:center;justify-content:space-between;gap:0;flex-wrap:wrap;padding:0 0 14px;background:oklch(0.99 0.004 95);border-bottom:1px solid oklch(0.9 0.01 250)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:none;flex:1 1 100%;min-width:0" />
+<nav style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;font-size:14px;font-weight:500;padding:14px 40px 0;flex:1 1 100%;justify-content:flex-end">
+<a href="#programa" style="color:oklch(0.3 0.02 250)">El programa</a>
+<a href="#experiencias" style="color:oklch(0.3 0.02 250)">Transparencia</a>
+<a href="#programas" style="color:oklch(0.3 0.02 250)">Programas</a>
+<a href="#faq" style="color:oklch(0.3 0.02 250)">FAQ</a>
+<a href="#inscribete" style="display:inline-block;background:oklch(0.45 0.14 250);color:oklch(0.99 0.004 95);padding:11px 20px;border-radius:2px;font-weight:600" style-hover="background:oklch(0.36 0.14 250)">Reserva tu cupo</a>
+</nav>
+</header>
+
+<section style="display:grid;grid-template-columns:1.05fr 0.95fr;min-height:520px;border-bottom:1px solid oklch(0.9 0.01 250)">
+<div style="padding:76px 56px 76px 40px;display:flex;flex-direction:column;justify-content:center;gap:22px;background:oklch(0.99 0.004 95)">
+<div style="display:flex;align-items:center;gap:10px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.5 0.13 145)">
+<span style="width:26px;height:2px;background:oklch(0.5 0.13 145);display:inline-block"></span>Feria Educativa 2026 · Stand FUCONS
+</div>
+<h1 style="font-family:Newsreader,serif;font-weight:500;font-size:58px;line-height:1.04;letter-spacing:-0.02em;margin:0;color:oklch(0.24 0.05 255);max-width:16em">Aquí empieza tu sendero: formación técnica con los pies en el territorio</h1>
+<p style="margin:0;font-size:17px;line-height:1.6;color:oklch(0.42 0.02 250);max-width:34em">Orientación honesta sobre cada programa técnico laboral y preinscripción en el mismo lugar. Sin promesas infladas: te contamos exactamente qué puedes hacer con tu título.</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:6px">
+<a href="#programas" style="border:1px solid oklch(0.75 0.02 250);color:oklch(0.3 0.02 250);padding:15px 26px;font-weight:600;font-size:15px;border-radius:2px" style-hover="border-color:oklch(0.45 0.14 250);color:oklch(0.45 0.14 250)">Ver los 13 programas</a>
+</div>
+<div style="display:flex;gap:36px;margin-top:20px;padding-top:22px;border-top:1px solid oklch(0.91 0.01 250)">
+<div><div style="font-family:Newsreader,serif;font-size:30px;color:oklch(0.24 0.05 255)">13</div><div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:oklch(0.52 0.02 250);margin-top:2px">programas ETDH</div></div>
+<div><div style="font-family:Newsreader,serif;font-size:30px;color:oklch(0.24 0.05 255)">2</div><div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:oklch(0.52 0.02 250);margin-top:2px">departamentos</div></div>
+<div><div style="font-family:Newsreader,serif;font-size:30px;color:oklch(0.24 0.05 255)">3</div><div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:oklch(0.52 0.02 250);margin-top:2px">municipios atendidos</div></div>
+</div>
+</div>
+<div style="position:relative;align-self:center">
+<img src="./assets/foto-02.png" alt="Estudiantes y docentes en la jornada Escuela de Paz" style="display:block;width:100%;height:auto;aspect-ratio:1280/963;object-fit:cover" />
+<div style="position:absolute;left:0;right:0;bottom:0;padding:26px 28px;background:linear-gradient(to top,oklch(0.2 0.03 255 / 0.85),oklch(0.2 0.03 255 / 0));color:oklch(0.98 0.004 95);font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em">“Donde las relaciones se estudian… y el cambio comienza”</div>
+</div>
+</section>
+
+
+
+<section id="programa" style="padding:72px 40px;border-bottom:1px solid oklch(0.9 0.01 250)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:520px;margin:0 0 30px" />
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.5 0.13 145);margin-bottom:14px">01 · Un sendero hacia la comunidad</div>
+<h2 style="font-family:Newsreader,serif;font-weight:500;font-size:36px;line-height:1.12;margin:0 0 8px;color:oklch(0.24 0.05 255);max-width:26em">Técnico Laboral por Competencias en Auxiliar de Psicología Social y Comunitaria</h2>
+<p style="margin:0 0 36px;font-size:16px;line-height:1.65;color:oklch(0.42 0.02 250);max-width:44em">“La formación para el trabajo debe brindar conocimientos útiles, herramientas prácticas y competencias que respondan a las necesidades reales.”</p>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:44px">
+<div style="border-top:3px solid oklch(0.45 0.14 250);padding:20px 0 0">
+<h3 style="font-family:Newsreader,serif;font-weight:500;font-size:22px;margin:0 0 6px;color:oklch(0.24 0.05 255)">Comprender</h3>
+<p style="margin:0;font-size:14.5px;line-height:1.6;color:oklch(0.44 0.02 250)">Bases de la psicología social y dinámicas comunitarias.</p>
+</div>
+<div style="border-top:3px solid oklch(0.5 0.13 145);padding:20px 0 0">
+<h3 style="font-family:Newsreader,serif;font-weight:500;font-size:22px;margin:0 0 6px;color:oklch(0.24 0.05 255)">Acompañar</h3>
+<p style="margin:0;font-size:14.5px;line-height:1.6;color:oklch(0.44 0.02 250)">Procesos sociales, educativos y de prevención en territorio.</p>
+</div>
+<div style="border-top:3px solid oklch(0.58 0.13 40);padding:20px 0 0">
+<h3 style="font-family:Newsreader,serif;font-weight:500;font-size:22px;margin:0 0 6px;color:oklch(0.24 0.05 255)">Aportar</h3>
+<p style="margin:0;font-size:14.5px;line-height:1.6;color:oklch(0.44 0.02 250)">Promoción activa del bienestar y fortalecimiento comunitario.</p>
+</div>
+</div>
+<h3 style="font-family:Newsreader,serif;font-weight:500;font-size:26px;margin:0 0 20px;color:oklch(0.24 0.05 255)">El valor de la Educación para el Trabajo y el Desarrollo Humano</h3>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid oklch(0.9 0.01 250)">
+<div style="padding:26px 24px;background:oklch(0.24 0.05 255);color:oklch(0.97 0.006 95);clip-path:polygon(0 0,100% 0,94% 100%,6% 100%)">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:8px;color:oklch(0.8 0.06 250)">El propósito</div>
+<p style="margin:0;font-size:14.5px;line-height:1.6">Formación laboral eminentemente práctica y de corta duración. NO busca formar profesionales universitarios, sino personal operativo idóneo.</p>
+</div>
+<div style="padding:26px 24px;background:oklch(0.62 0.16 45);color:oklch(0.99 0.004 95);clip-path:polygon(0 0,100% 0,94% 100%,6% 100%)">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:8px">El enfoque</div>
+<p style="margin:0;font-size:14.5px;line-height:1.6">Desarrollo de competencias específicas relacionadas con el campo ocupacional social.</p>
+</div>
+<div style="padding:26px 24px;background:oklch(0.5 0.11 145);color:oklch(0.99 0.004 95);clip-path:polygon(0 0,100% 0,94% 100%,6% 100%)">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:8px">El resultado</div>
+<p style="margin:0;font-size:14.5px;line-height:1.6">Certificado de Técnico Laboral por Competencias debidamente registrado en Colombia, que habilita al egresado para el desempeño inmediato.</p>
+</div>
+</div>
+</section>
+
+<section id="experiencias" style="padding:72px 40px;background:oklch(0.97 0.01 150);border-bottom:1px solid oklch(0.9 0.01 250)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:520px;margin:0 0 30px" />
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.42 0.13 145);margin-bottom:14px">02 · Transparencia ética</div>
+<h2 style="font-family:Newsreader,serif;font-weight:500;font-size:36px;line-height:1.12;margin:0 0 10px;color:oklch(0.24 0.05 255);max-width:24em">El muro de mitos y realidades del stand</h2>
+<p style="margin:0 0 28px;font-size:16px;line-height:1.65;color:oklch(0.42 0.02 250);max-width:44em">Toca cada mito para ver la realidad. No vendemos el título de psicólogo: ofrecemos formación técnica de apoyo, ética y transparente.</p>
+<div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:14px;margin-bottom:28px">
+<img src="./assets/foto-04.png" alt="Círculo de formación con la comunidad" style="display:block;width:100%;height:auto;aspect-ratio:1500/1129;object-fit:cover;border:1px solid oklch(0.88 0.02 150)" />
+<img src="./assets/foto-01.png" alt="Taller de valores con estudiantes" style="display:block;width:100%;height:auto;aspect-ratio:963/1280;object-fit:cover;border:1px solid oklch(0.88 0.02 150)" />
+<img src="./assets/foto-08.png" alt="Taller de modelo de negocio con participantes" style="display:block;width:100%;height:auto;aspect-ratio:1125/1500;object-fit:cover;border:1px solid oklch(0.88 0.02 150)" />
+</div>
+<button onClick="{{ toggleAll }}" style="cursor:pointer;margin-bottom:18px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;background:none;border:1px solid oklch(0.7 0.05 145);color:oklch(0.38 0.1 145);padding:11px 16px" style-hover="background:oklch(0.5 0.13 145);color:oklch(0.99 0.004 95);border-color:oklch(0.5 0.13 145)">{{ toggleAllLabel }}</button>
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:18px">
+<sc-for list="{{ myths }}" as="m" hint-placeholder-count="4">
+<button onClick="{{ m.toggle }}" style="text-align:left;cursor:pointer;background:oklch(0.99 0.004 95);border:1px solid oklch(0.88 0.02 150);padding:24px;display:grid;gap:12px;font-family:inherit" style-hover="border-color:oklch(0.5 0.13 145)">
+<span style="display:flex;align-items:baseline;gap:12px">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:oklch(0.55 0.15 40)">Mito</span>
+<span style="font-family:Newsreader,serif;font-size:20px;line-height:1.3;color:oklch(0.24 0.05 255)">{{ m.mito }}</span>
+</span>
+<span style="display:grid;gap:6px;padding-top:12px;border-top:1px solid oklch(0.92 0.02 150);opacity:{{ m.opacity }}">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:oklch(0.42 0.13 145)">Realidad</span>
+<span style="font-size:14.5px;line-height:1.6;color:oklch(0.34 0.02 250)">{{ m.realidad }}</span>
+</span>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.08em;color:oklch(0.55 0.02 250)">{{ m.hint }}</span>
+</button>
+</sc-for>
+</div>
+
+<h3 style="font-family:Newsreader,serif;font-weight:500;font-size:26px;margin:52px 0 20px;color:oklch(0.24 0.05 255)">Trazando límites éticos: Técnico Laboral vs. Psicólogo Profesional</h3>
+<div style="display:grid;grid-template-columns:170px 1fr 1fr;gap:0;background:oklch(0.99 0.004 95);border:1px solid oklch(0.88 0.02 150)">
+<div style="padding:14px 18px"></div>
+<div style="padding:14px 18px;background:oklch(0.5 0.11 145);color:oklch(0.99 0.004 95);font-weight:600;font-size:15px">Técnico Laboral</div>
+<div style="padding:14px 18px;background:oklch(0.24 0.05 255);color:oklch(0.99 0.004 95);font-weight:600;font-size:15px">Psicólogo Profesional</div>
+<div style="padding:16px 18px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:oklch(0.45 0.02 250);border-top:1px solid oklch(0.92 0.02 150)">Nivel educativo</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.96 0.03 150);border-top:1px solid oklch(0.92 0.02 150)">Formación laboral práctica</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.95 0.02 250);border-top:1px solid oklch(0.92 0.02 150)">Estudios universitarios y tarjeta profesional</div>
+<div style="padding:16px 18px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:oklch(0.45 0.02 250);border-top:1px solid oklch(0.92 0.02 150)">Rol principal</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.96 0.03 150);border-top:1px solid oklch(0.92 0.02 150)">Funciones auxiliares, de apoyo y promoción en procesos sociales</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.95 0.02 250);border-top:1px solid oklch(0.92 0.02 150)">Intervención autónoma, clínica y dirección de proyectos</div>
+<div style="padding:16px 18px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:oklch(0.45 0.02 250);border-top:1px solid oklch(0.92 0.02 150)">Límites de actuación</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.96 0.03 150);border-top:1px solid oklch(0.92 0.02 150)">Acompañamiento comunitario y remisión de casos complejos</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.95 0.02 250);border-top:1px solid oklch(0.92 0.02 150)">Diagnóstico clínico y terapia especializada</div>
+</div>
+
+<h3 style="font-family:Newsreader,serif;font-weight:500;font-size:26px;margin:52px 0 8px;color:oklch(0.24 0.05 255)">La ética de los límites: lo que un auxiliar NO debe hacer</h3>
+<p style="margin:0 0 22px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.08em;color:oklch(0.5 0.13 40)">Zonas de protección comunitaria</p>
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px">
+<div style="background:oklch(0.99 0.004 95);border-left:3px solid oklch(0.55 0.17 25);padding:20px 22px">
+<div style="font-size:15px;font-weight:600;margin-bottom:6px;color:oklch(0.24 0.05 255)">Identidad profesional</div>
+<p style="margin:0;font-size:14.5px;line-height:1.6;color:oklch(0.42 0.02 250)">El egresado no debe, bajo ninguna circunstancia, presentarse como psicólogo ni utilizar títulos que no posee.</p>
+</div>
+<div style="background:oklch(0.99 0.004 95);border-left:3px solid oklch(0.55 0.17 25);padding:20px 22px">
+<div style="font-size:15px;font-weight:600;margin-bottom:6px;color:oklch(0.24 0.05 255)">Intervención autónoma</div>
+<p style="margin:0;font-size:14.5px;line-height:1.6;color:oklch(0.42 0.02 250)">Prohibido realizar funciones exclusivas de la psicología que exijan habilitación o tarjeta profesional.</p>
+</div>
+<div style="background:oklch(0.99 0.004 95);border-left:3px solid oklch(0.55 0.17 25);padding:20px 22px">
+<div style="font-size:15px;font-weight:600;margin-bottom:6px;color:oklch(0.24 0.05 255)">Práctica clínica</div>
+<p style="margin:0;font-size:14.5px;line-height:1.6;color:oklch(0.42 0.02 250)">Cero tolerancia al diagnóstico clínico autónomo o a las terapias psicológicas.</p>
+</div>
+<div style="background:oklch(0.99 0.004 95);border-left:3px solid oklch(0.5 0.13 145);padding:20px 22px">
+<div style="font-size:15px;font-weight:600;margin-bottom:6px;color:oklch(0.24 0.05 255)">El deber de remisión</div>
+<p style="margin:0;font-size:14.5px;line-height:1.6;color:oklch(0.42 0.02 250)">Cuando una situación requiera atención especializada, el protocolo exige remisión inmediata al profesional.</p>
+</div>
+</div>
+<p style="margin:22px 0 0;padding:16px 20px;background:oklch(0.58 0.13 40);color:oklch(0.99 0.004 95);font-size:15px;font-weight:500">Conocer los límites no restringe la formación: la hace responsable, ética y transparente.</p>
+</section>
+
+<section id="formacion" style="padding:72px 40px;border-bottom:1px solid oklch(0.9 0.01 250)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:520px;margin:0 0 30px" />
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.5 0.13 145);margin-bottom:14px">03 · El ciclo de acción y el plan de estudios</div>
+<h2 style="font-family:Newsreader,serif;font-weight:500;font-size:36px;line-height:1.12;margin:0 0 8px;color:oklch(0.24 0.05 255)">Qué hace, en la práctica, un auxiliar de psicología social</h2>
+<p style="margin:0 0 28px;font-family:Newsreader,serif;font-size:18px;line-height:1.5;color:oklch(0.45 0.02 250)">El auxiliar acompaña y apoya la estrategia social; no reemplaza al profesional.</p>
+<div style="position:relative;width:560px;height:560px;margin:0 auto 46px">
+<div style="position:absolute;left:160px;top:160px;width:240px;height:240px;box-sizing:border-box;border-radius:50%;background:oklch(0.24 0.05 255);color:oklch(0.97 0.006 95);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px;gap:8px">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;color:oklch(0.8 0.09 145)">PASO {{ cycleNum }}</span>
+<span style="font-family:Newsreader,serif;font-size:26px;line-height:1.1">{{ cycleTitle }}</span>
+<span style="font-size:13px;line-height:1.5;color:oklch(0.88 0.015 250)">{{ cycleDesc }}</span>
+</div>
+<button onClick="{{ cy1 }}" style="position:absolute;left:228px;top:10px;width:104px;height:104px;border-radius:50%;cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;border:2px solid {{ cy1bd }};background:{{ cy1bg }};color:{{ cy1fg }}">1 · Observar</button>
+<button onClick="{{ cy2 }}" style="position:absolute;left:398px;top:92px;width:104px;height:104px;border-radius:50%;cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;border:2px solid {{ cy2bd }};background:{{ cy2bg }};color:{{ cy2fg }}">2 · Orientar</button>
+<button onClick="{{ cy3 }}" style="position:absolute;left:440px;top:276px;width:104px;height:104px;border-radius:50%;cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;border:2px solid {{ cy3bd }};background:{{ cy3bg }};color:{{ cy3fg }}">3 · Acompañar</button>
+<button onClick="{{ cy4 }}" style="position:absolute;left:322px;top:424px;width:104px;height:104px;border-radius:50%;cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;border:2px solid {{ cy4bd }};background:{{ cy4bg }};color:{{ cy4fg }}">4 · Promover</button>
+<button onClick="{{ cy5 }}" style="position:absolute;left:133px;top:424px;width:104px;height:104px;border-radius:50%;cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;border:2px solid {{ cy5bd }};background:{{ cy5bg }};color:{{ cy5fg }}">5 · Participar</button>
+<button onClick="{{ cy6 }}" style="position:absolute;left:15px;top:276px;width:104px;height:104px;border-radius:50%;cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;border:2px solid {{ cy6bd }};background:{{ cy6bg }};color:{{ cy6fg }}">6 · Articular</button>
+<button onClick="{{ cy7 }}" style="position:absolute;left:57px;top:92px;width:104px;height:104px;border-radius:50%;cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;border:2px solid {{ cy7bd }};background:{{ cy7bg }};color:{{ cy7fg }}">7 · Remitir</button>
+</div>
+<p style="margin:0 auto 52px;max-width:44em;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:oklch(0.55 0.02 250)">Toca cada paso del ciclo para ver su alcance</p>
+<h3 style="font-family:Newsreader,serif;font-weight:500;font-size:26px;margin:0 0 20px;color:oklch(0.24 0.05 255)">La caja de herramientas del auxiliar (plan de estudios)</h3>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+<div style="background:oklch(0.97 0.012 90);border:1px solid oklch(0.9 0.012 90);padding:24px 22px;transition:transform 0.18s ease,box-shadow 0.18s ease" style-hover="transform:translateY(-4px);box-shadow:0 10px 24px oklch(0.24 0.05 255 / 0.12)">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:oklch(0.5 0.13 145);margin-bottom:8px">MÓDULO 01</div>
+<h4 style="font-family:Newsreader,serif;font-weight:500;font-size:20px;margin:0 0 8px;color:oklch(0.24 0.05 255)">Fundamentos y dinámicas</h4>
+<p style="margin:0;font-size:14px;line-height:1.6;color:oklch(0.44 0.02 250)">Psicología social y comunitaria, procesos de interacción, convivencia y dinámicas grupales.</p>
+</div>
+<div style="background:oklch(0.97 0.012 90);border:1px solid oklch(0.9 0.012 90);padding:24px 22px;transition:transform 0.18s ease,box-shadow 0.18s ease" style-hover="transform:translateY(-4px);box-shadow:0 10px 24px oklch(0.24 0.05 255 / 0.12)">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:oklch(0.5 0.13 145);margin-bottom:8px">MÓDULO 02</div>
+<h4 style="font-family:Newsreader,serif;font-weight:500;font-size:20px;margin:0 0 8px;color:oklch(0.24 0.05 255)">Herramientas de diagnóstico social</h4>
+<p style="margin:0;font-size:14px;line-height:1.6;color:oklch(0.44 0.02 250)">Observación, reconocimiento de situaciones sociales y caracterización de necesidades comunitarias.</p>
+</div>
+<div style="background:oklch(0.97 0.012 90);border:1px solid oklch(0.9 0.012 90);padding:24px 22px;transition:transform 0.18s ease,box-shadow 0.18s ease" style-hover="transform:translateY(-4px);box-shadow:0 10px 24px oklch(0.24 0.05 255 / 0.12)">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:oklch(0.5 0.13 145);margin-bottom:8px">MÓDULO 03</div>
+<h4 style="font-family:Newsreader,serif;font-weight:500;font-size:20px;margin:0 0 8px;color:oklch(0.24 0.05 255)">Estrategias de apoyo</h4>
+<p style="margin:0;font-size:14px;line-height:1.6;color:oklch(0.44 0.02 250)">Prevención y promoción, diseño de actividades educativas, resolución pacífica de conflictos y logística.</p>
+</div>
+<div style="background:oklch(0.97 0.012 90);border:1px solid oklch(0.9 0.012 90);padding:24px 22px;transition:transform 0.18s ease,box-shadow 0.18s ease" style-hover="transform:translateY(-4px);box-shadow:0 10px 24px oklch(0.24 0.05 255 / 0.12)">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:oklch(0.5 0.13 145);margin-bottom:8px">MÓDULO 04</div>
+<h4 style="font-family:Newsreader,serif;font-weight:500;font-size:20px;margin:0 0 8px;color:oklch(0.24 0.05 255)">Ética y redes de apoyo</h4>
+<p style="margin:0;font-size:14px;line-height:1.6;color:oklch(0.44 0.02 250)">Comunicación asertiva, responsabilidad moral y reconocimiento experto de rutas de apoyo institucional.</p>
+</div>
+</div>
+</section>
+
+<section id="egresado" style="padding:72px 40px;background:oklch(0.97 0.008 250);border-bottom:1px solid oklch(0.9 0.01 250)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:520px;margin:0 0 30px" />
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.5 0.13 145);margin-bottom:14px">04 · El ecosistema laboral</div>
+<h2 style="font-family:Newsreader,serif;font-weight:500;font-size:36px;line-height:1.12;margin:0 0 28px;color:oklch(0.24 0.05 255)">¿Dónde puedes aportar? Perfil del egresado</h2>
+<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:22px">
+<div style="background:oklch(0.99 0.004 95);border:1px solid oklch(0.9 0.01 250);padding:20px"><div style="font-size:15px;font-weight:600;color:oklch(0.24 0.05 255);margin-bottom:6px">Fundaciones y ONG</div><p style="margin:0;font-size:13.5px;line-height:1.55;color:oklch(0.44 0.02 250)">Ejecución operativa de programas para poblaciones vulnerables.</p></div>
+<div style="background:oklch(0.99 0.004 95);border:1px solid oklch(0.9 0.01 250);padding:20px"><div style="font-size:15px;font-weight:600;color:oklch(0.24 0.05 255);margin-bottom:6px">Proyectos comunitarios</div><p style="margin:0;font-size:13.5px;line-height:1.55;color:oklch(0.44 0.02 250)">Promoción y fortalecimiento local.</p></div>
+<div style="background:oklch(0.99 0.004 95);border:1px solid oklch(0.9 0.01 250);padding:20px"><div style="font-size:15px;font-weight:600;color:oklch(0.24 0.05 255);margin-bottom:6px">Programas sociales y educativos</div><p style="margin:0;font-size:13.5px;line-height:1.55;color:oklch(0.44 0.02 250)">Apoyo logístico en talleres, campañas y sensibilización.</p></div>
+<div style="background:oklch(0.99 0.004 95);border:1px solid oklch(0.9 0.01 250);padding:20px"><div style="font-size:15px;font-weight:600;color:oklch(0.24 0.05 255);margin-bottom:6px">Instituciones públicas y privadas</div><p style="margin:0;font-size:13.5px;line-height:1.55;color:oklch(0.44 0.02 250)">Acompañamiento en procesos de integración ciudadana.</p></div>
+<div style="background:oklch(0.99 0.004 95);border:1px solid oklch(0.9 0.01 250);padding:20px"><div style="font-size:15px;font-weight:600;color:oklch(0.24 0.05 255);margin-bottom:6px">Trabajo independiente</div><p style="margin:0;font-size:13.5px;line-height:1.55;color:oklch(0.44 0.02 250)">Asistencia en proyectos bajo los lineamientos de sus competencias técnicas.</p></div>
+</div>
+<p style="margin:0;padding:18px 22px;background:oklch(0.95 0.04 150);border:1px solid oklch(0.85 0.05 150);font-size:14.5px;line-height:1.6;color:oklch(0.3 0.03 155)"><strong style="font-weight:600">Nota de transparencia profesional:</strong> el desempeño en estas áreas siempre dependerá de los requisitos específicos de cada empleador o entidad convocante, así como de la experiencia y competencias particulares del egresado. La formación técnica no garantiza de forma automática un empleo: dota al estudiante de herramientas idóneas para competir en el sector.</p>
+</section>
+
+<section id="caso" style="padding:72px 40px;border-bottom:1px solid oklch(0.9 0.01 250)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:520px;margin:0 0 30px" />
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.5 0.13 145);margin-bottom:14px">05 · Impacto real en territorio</div>
+<h2 style="font-family:Newsreader,serif;font-weight:500;font-size:36px;line-height:1.12;margin:0 0 8px;color:oklch(0.24 0.05 255)">El caso de Doña Rosa</h2>
+<p style="margin:0 0 30px;font-size:16px;line-height:1.65;color:oklch(0.42 0.02 250);max-width:46em">Estudiantes en práctica abordan a Doña Rosa, una trabajadora informal en las vías, para mitigar sus riesgos laborales y emocionales.</p>
+<div style="display:flex;gap:8px;margin-bottom:26px">
+<button onClick="{{ goPart1 }}" style="cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;padding:12px 18px;border:1px solid oklch(0.62 0.16 45);background:{{ p1bg }};color:{{ p1fg }}">Parte 1 · El diagnóstico</button>
+<button onClick="{{ goPart2 }}" style="cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;padding:12px 18px;border:1px solid oklch(0.5 0.11 145);background:{{ p2bg }};color:{{ p2fg }}">Parte 2 · La intervención</button>
+</div>
+<sc-if value="{{ part1 }}" hint-placeholder-val="{{ true }}">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+<div style="background:oklch(0.98 0.012 45);border-left:3px solid oklch(0.62 0.16 45);padding:22px 24px"><div style="font-size:16px;font-weight:600;color:oklch(0.24 0.05 255);margin-bottom:6px">Riesgos físicos</div><p style="margin:0;font-size:15px;line-height:1.6;color:oklch(0.42 0.02 250)">Exposición extrema al sol (“el sol apremia, la maltrata”), agotamiento físico severo y herramientas inadecuadas.</p></div>
+<div style="background:oklch(0.98 0.012 45);border-left:3px solid oklch(0.62 0.16 45);padding:22px 24px"><div style="font-size:16px;font-weight:600;color:oklch(0.24 0.05 255);margin-bottom:6px">Riesgos psicosociales</div><p style="margin:0;font-size:15px;line-height:1.6;color:oklch(0.42 0.02 250)">Aislamiento extremo, fatiga emocional y carga familiar inmensa como madre soltera de siete hijos dependientes.</p></div>
+</div>
+</sc-if>
+<sc-if value="{{ part2 }}" hint-placeholder-val="{{ false }}">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+<div style="background:oklch(0.97 0.02 150);border-left:3px solid oklch(0.5 0.13 145);padding:22px 24px"><div style="font-size:16px;font-weight:600;color:oklch(0.24 0.05 255);margin-bottom:6px">Soporte físico · prevención y autocuidado</div><p style="margin:0;font-size:15px;line-height:1.6;color:oklch(0.42 0.02 250)">Kit de protección (camisa manga larga con cintas reflectivas, guantes, lentes, tenis de descanso, protector solar), hidratación y merienda para mitigar el agotamiento inmediato.</p></div>
+<div style="background:oklch(0.97 0.02 150);border-left:3px solid oklch(0.5 0.13 145);padding:22px 24px"><div style="font-size:16px;font-weight:600;color:oklch(0.24 0.05 255);margin-bottom:6px">Soporte psicosocial · herramientas comunitarias</div><p style="margin:0;font-size:15px;line-height:1.6;color:oklch(0.42 0.02 250)">Escucha activa, articulación de redes con la Casa de la Cultura y acompañamiento estrictamente dentro de los límites del auxiliar, sin intentar terapia clínica.</p></div>
+</div>
+</sc-if>
+</section>
+
+<section id="decalogo" style="padding:72px 40px;background:oklch(0.97 0.008 250);border-bottom:1px solid oklch(0.9 0.01 250)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:520px;margin:0 0 30px" />
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.5 0.13 145);margin-bottom:14px">06 · Comunicación ética</div>
+<h2 style="font-family:Newsreader,serif;font-weight:500;font-size:36px;line-height:1.12;margin:0 0 28px;color:oklch(0.24 0.05 255)">Nuestro decálogo de comunicación ética y reclutamiento</h2>
+<div style="display:grid;grid-template-columns:0.8fr 1fr 1fr;gap:0;border:1px solid oklch(0.88 0.01 250);background:oklch(0.99 0.004 95)">
+<div style="padding:14px 18px;background:oklch(0.24 0.05 255);color:oklch(0.99 0.004 95);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase">Principio rector</div>
+<div style="padding:14px 18px;background:oklch(0.24 0.05 255);color:oklch(0.99 0.004 95);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase">Lo que hacemos</div>
+<div style="padding:14px 18px;background:oklch(0.24 0.05 255);color:oklch(0.99 0.004 95);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;text-transform:uppercase">Lo que nunca hacemos</div>
+<div style="padding:16px 18px;font-size:15px;font-weight:600;color:oklch(0.24 0.05 255);border-top:1px solid oklch(0.92 0.01 250)">Transparencia de rol</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.97 0.02 150);border-top:1px solid oklch(0.92 0.01 250)">Aclarar desde el primer minuto que es una formación auxiliar.</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.97 0.02 30);border-top:1px solid oklch(0.92 0.01 250)">Usar expresiones ambiguas o prometer que “serán psicólogos”.</div>
+<div style="padding:16px 18px;font-size:15px;font-weight:600;color:oklch(0.24 0.05 255);border-top:1px solid oklch(0.92 0.01 250)">Definición de límites</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.97 0.02 150);border-top:1px solid oklch(0.92 0.01 250)">Enseñar a observar, orientar y acompañar.</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.97 0.02 30);border-top:1px solid oklch(0.92 0.01 250)">Ofrecer capacitación para consultas, diagnósticos o terapias reservadas a profesionales.</div>
+<div style="padding:16px 18px;font-size:15px;font-weight:600;color:oklch(0.24 0.05 255);border-top:1px solid oklch(0.92 0.01 250)">Orientación al trabajo</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.97 0.02 150);border-top:1px solid oklch(0.92 0.01 250)">Enfatizar la vinculación como apoyo social operativo.</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.97 0.02 30);border-top:1px solid oklch(0.92 0.01 250)">Garantizar empleo automático o decir que reemplaza un título universitario.</div>
+<div style="padding:16px 18px;font-size:15px;font-weight:600;color:oklch(0.24 0.05 255);border-top:1px solid oklch(0.92 0.01 250)">Enfoque clínico</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.97 0.02 150);border-top:1px solid oklch(0.92 0.01 250)">Enseñar protocolos de remisión a profesionales.</div>
+<div style="padding:16px 18px;font-size:14.5px;line-height:1.55;background:oklch(0.97 0.02 30);border-top:1px solid oklch(0.92 0.01 250)">Insinuar que el auxiliar puede resolver de forma autónoma casos de salud mental.</div>
+</div>
+</section>
+
+<section id="programas" style="padding:72px 40px;border-bottom:1px solid oklch(0.9 0.01 250)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:520px;margin:0 0 30px" />
+<div style="display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-bottom:28px">
+<div>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.5 0.13 145);margin-bottom:14px">07 · Oferta académica</div>
+<h2 style="font-family:Newsreader,serif;font-weight:500;font-size:36px;line-height:1.12;margin:0;color:oklch(0.24 0.05 255)">Programas técnicos laborales por competencias</h2>
+</div>
+<div style="display:flex;gap:8px;flex-wrap:wrap">
+<sc-for list="{{ areas }}" as="a" hint-placeholder-count="5">
+<button onClick="{{ a.select }}" style="cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;padding:10px 14px;border:1px solid {{ a.border }};background:{{ a.bg }};color:{{ a.fg }}">{{ a.name }}</button>
+</sc-for>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start">
+<div style="display:grid;gap:0;border-top:2px solid oklch(0.24 0.05 255)">
+<sc-for list="{{ programs }}" as="p" hint-placeholder-count="4">
+<div style="display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:baseline;padding:16px 0;border-bottom:1px solid oklch(0.91 0.01 250)">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:oklch(0.5 0.13 145)">{{ p.num }}</span>
+<span style="font-size:16px;font-weight:500;color:oklch(0.26 0.03 255)">{{ p.name }}</span>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.06em;text-transform:uppercase;color:oklch(0.55 0.02 250)">{{ p.tag }}</span>
+</div>
+</sc-for>
+</div>
+<div style="display:grid;gap:16px">
+<img src="./assets/foto-03.png" alt="Clase del programa de auxiliar en enfermería" style="display:block;width:100%;height:auto;aspect-ratio:1280/590;object-fit:cover;border:1px solid oklch(0.9 0.01 250)" />
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<img src="./assets/foto-05.png" alt="Entrega de certificados a estudiantes" style="display:block;width:100%;height:auto;aspect-ratio:1418/900;object-fit:cover;border:1px solid oklch(0.9 0.01 250)" />
+<img src="./assets/foto-06.png" alt="Graduación de egresados FUCONS" style="display:block;width:100%;height:auto;aspect-ratio:1280/960;object-fit:cover;border:1px solid oklch(0.9 0.01 250)" />
+</div>
+<p style="margin:0;font-size:14px;line-height:1.6;color:oklch(0.44 0.02 250)">Formación con docentes certificados e idóneos, prácticas con aliados del sector productivo y validación del bachillerato para jóvenes y adultos.</p>
+</div>
+</div>
+</section>
+
+
+
+
+
+<section id="faq" style="padding:72px 40px;border-bottom:1px solid oklch(0.9 0.01 250)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:520px;margin:0 0 30px" />
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.5 0.13 145);margin-bottom:14px">08 · Preguntas frecuentes</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:36px 48px;margin-bottom:52px">
+<div><h3 style="font-family:Newsreader,serif;font-weight:500;font-size:24px;margin:0 0 8px;color:oklch(0.24 0.05 255)">¿Es válido este título?</h3><p style="margin:0;font-size:15px;line-height:1.65;color:oklch(0.42 0.02 250)">Sí. Otorga un Certificado de Técnico Laboral por Competencias debidamente registrado para funciones de apoyo, sin conferir habilitación clínica.</p></div>
+<div><h3 style="font-family:Newsreader,serif;font-weight:500;font-size:24px;margin:0 0 8px;color:oklch(0.24 0.05 255)">¿Qué pasa ante una crisis mental en la comunidad?</h3><p style="margin:0;font-size:15px;line-height:1.65;color:oklch(0.42 0.02 250)">El programa capacita rigurosamente en la remisión ética y oportuna a profesionales. El auxiliar actúa como puente de apoyo, nunca como terapeuta.</p></div>
+</div>
+<h3 style="font-family:Newsreader,serif;font-weight:500;font-size:30px;margin:0 0 6px;color:oklch(0.24 0.05 255)">¿Por qué elegir este sendero?</h3>
+<p style="margin:0 0 24px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:oklch(0.55 0.02 250)">Toca cada círculo · en el centro, acompañamiento comunitario responsable</p>
+<div style="display:grid;grid-template-columns:520px 1fr;gap:44px;align-items:center">
+<div style="position:relative;width:520px;height:420px">
+<button onClick="{{ venn0 }}" aria-label="Vocación y necesidad real" style="position:absolute;left:20px;top:10px;width:280px;height:280px;border-radius:50%;border:none;cursor:pointer;mix-blend-mode:multiply;background:oklch(0.45 0.14 250);opacity:{{ venn0op }}"></button>
+<button onClick="{{ venn1 }}" aria-label="Comprensión científica" style="position:absolute;left:220px;top:10px;width:280px;height:280px;border-radius:50%;border:none;cursor:pointer;mix-blend-mode:multiply;background:oklch(0.58 0.13 40);opacity:{{ venn1op }}"></button>
+<button onClick="{{ venn2 }}" aria-label="Escalabilidad ética" style="position:absolute;left:120px;top:130px;width:280px;height:280px;border-radius:50%;border:none;cursor:pointer;mix-blend-mode:multiply;background:oklch(0.5 0.11 145);opacity:{{ venn2op }}"></button>
+<span style="position:absolute;left:180px;top:198px;width:160px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:10px;line-height:1.5;letter-spacing:0.08em;text-transform:uppercase;color:oklch(0.99 0.004 95);pointer-events:none">Acompañamiento comunitario responsable</span>
+</div>
+<div style="display:grid;gap:18px">
+<div style="border-top:2px solid oklch(0.24 0.05 255);padding-top:18px">
+<h4 style="font-family:Newsreader,serif;font-weight:500;font-size:26px;margin:0 0 8px;color:oklch(0.24 0.05 255)">{{ vennTitle }}</h4>
+<p style="margin:0;font-size:15.5px;line-height:1.65;color:oklch(0.42 0.02 250)">{{ vennDesc }}</p>
+</div>
+<div style="display:grid;gap:8px;font-size:13.5px;color:oklch(0.45 0.02 250)">
+<span style="display:flex;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:50%;background:oklch(0.45 0.14 250);display:inline-block"></span>Vocación y necesidad real</span>
+<span style="display:flex;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:50%;background:oklch(0.58 0.13 40);display:inline-block"></span>Comprensión científica</span>
+<span style="display:flex;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:50%;background:oklch(0.5 0.11 145);display:inline-block"></span>Escalabilidad ética</span>
+</div>
+</div>
+</div>
+<p style="margin:36px 0 0;padding:26px 28px;background:oklch(0.97 0.012 90);border:1px solid oklch(0.9 0.012 90);font-family:Newsreader,serif;font-size:19px;line-height:1.5;color:oklch(0.26 0.03 255)">La educación no debe construirse sobre rumores, sino sobre información clara. <strong style="font-weight:600">No vendemos el título de psicólogo:</strong> ofrecemos formación técnica de alta calidad, responsable, ética y transparente.</p>
+</section>
+
+<section id="inscribete" style="padding:72px 40px;background:oklch(0.24 0.05 255);color:oklch(0.97 0.006 95)">
+<img src="./assets/foto-09.png" alt="Fundación Construyendo Senderos" style="display:block;width:100%;height:auto;max-width:520px;margin:0 0 30px;background:oklch(0.99 0.004 95);padding:6px 10px" />
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start">
+<div>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:oklch(0.75 0.11 145);margin-bottom:14px">09 · Reserva tu cupo</div>
+<h2 style="font-family:Newsreader,serif;font-weight:500;font-size:38px;line-height:1.1;margin:0 0 16px">Déjanos tus datos y te esperamos en el stand</h2>
+<p style="margin:0 0 26px;font-size:16px;line-height:1.65;color:oklch(0.85 0.015 250);max-width:34em">Formulario liviano: funciona con datos móviles limitados y puedes guardar el progreso. Un docente te contacta para confirmar el programa y los documentos.</p>
+<div style="display:grid;gap:10px;font-size:14.5px;color:oklch(0.86 0.015 250)">
+<div style="display:flex;gap:12px"><span style="font-family:'IBM Plex Mono',monospace;color:oklch(0.75 0.11 145)">→</span><span>Corregimiento de Arjona · Cesar</span></div>
+<div style="display:flex;gap:12px"><span style="font-family:'IBM Plex Mono',monospace;color:oklch(0.75 0.11 145)">→</span><span>El Banco, Magdalena</span></div>
+<div style="display:flex;gap:12px"><span style="font-family:'IBM Plex Mono',monospace;color:oklch(0.75 0.11 145)">→</span><span>Atención por WhatsApp durante toda la feria</span></div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px">
+<img src="./assets/foto-07.png" alt="Celebración del día del profesor en FUCONS" style="display:block;width:100%;height:auto;aspect-ratio:1125/1500;object-fit:cover" />
+<img src="./assets/foto-05.png" alt="Estudiantes certificadas de FUCONS" style="display:block;width:100%;height:auto;aspect-ratio:1418/900;object-fit:cover" />
+</div>
+</div>
+<div style="background:oklch(0.99 0.004 95);padding:32px;color:oklch(0.26 0.02 250)">
+<sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+<div style="display:grid;gap:10px;padding:20px 0">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:oklch(0.45 0.13 145)">Solicitud registrada</div>
+<div style="font-family:Newsreader,serif;font-size:26px;line-height:1.2;color:oklch(0.24 0.05 255)">{{ thanks }}</div>
+<p style="margin:0;font-size:14.5px;line-height:1.6;color:oklch(0.44 0.02 250)">Te esperamos en el stand de FUCONS. Lleva tu documento de identidad y, si la tienes, copia del diploma o certificado de estudios.</p>
+<button onClick="{{ reset }}" style="justify-self:start;margin-top:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;background:none;border:1px solid oklch(0.8 0.02 250);padding:10px 14px;color:oklch(0.4 0.02 250)">Registrar otra persona</button>
+</div>
+</sc-if>
+<sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
+<div style="display:grid;gap:16px">
+<label style="display:grid;gap:6px">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:oklch(0.5 0.02 250)">Nombre completo</span>
+<input value="{{ name }}" onChange="{{ setName }}" placeholder="Ej. María Fernanda Pérez" style="font-family:inherit;font-size:15px;padding:12px;border:1px solid oklch(0.85 0.02 250);background:oklch(0.985 0.006 95)" />
+</label>
+<label style="display:grid;gap:6px">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:oklch(0.5 0.02 250)">WhatsApp</span>
+<input value="{{ phone }}" onChange="{{ setPhone }}" placeholder="300 000 0000" style="font-family:inherit;font-size:15px;padding:12px;border:1px solid oklch(0.85 0.02 250);background:oklch(0.985 0.006 95)" />
+</label>
+<label style="display:grid;gap:6px">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:oklch(0.5 0.02 250)">Programa de interés</span>
+<select value="{{ program }}" onChange="{{ setProgram }}" style="font-family:inherit;font-size:15px;padding:12px;border:1px solid oklch(0.85 0.02 250);background:oklch(0.985 0.006 95)">
+<sc-for list="{{ allPrograms }}" as="p" hint-placeholder-count="6">
+<option value="{{ p }}">{{ p }}</option>
+</sc-for>
+</select>
+</label>
+<label style="display:grid;gap:6px">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:oklch(0.5 0.02 250)">Municipio</span>
+<select value="{{ town }}" onChange="{{ setTown }}" style="font-family:inherit;font-size:15px;padding:12px;border:1px solid oklch(0.85 0.02 250);background:oklch(0.985 0.006 95)">
+<option value="Arjona (Cesar)">Arjona (Cesar)</option>
+<option value="El Banco, Magdalena">El Banco, Magdalena</option>
+<option value="Otro">Otro</option>
+</select>
+</label>
+<button onClick="{{ submit }}" style="cursor:pointer;font-family:inherit;font-size:15px;font-weight:600;padding:15px;border:none;background:oklch(0.45 0.14 250);color:oklch(0.99 0.004 95)" style-hover="background:oklch(0.36 0.14 250)">Reservar mi cupo</button>
+<p style="margin:0;font-family:'IBM Plex Mono',monospace;font-size:10px;line-height:1.6;letter-spacing:0.04em;color:oklch(0.55 0.02 250)">Al enviar aceptas el tratamiento de datos conforme a la política de la fundación. Demostración: los datos no se envían a ningún servidor.</p>
+</div>
+</sc-if>
+</div>
+</div>
+</section>
+
+<footer style="padding:40px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;background:oklch(0.99 0.004 95);border-top:1px solid oklch(0.9 0.01 250);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:oklch(0.55 0.02 250)">
+<span>Fundación Construyendo Senderos · NIT 819006000-9</span>
+<span>Educación para el Trabajo y el Desarrollo Humano</span>
+<span>Propuesta de sitio · Feria Educativa 2026</span>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440}}">
+const AREAS = [
+  { name: "Todos", items: null },
+  { name: "Salud y bienestar", items: ["Auxiliar en Enfermería","Auxiliar en Servicios Farmacéuticos","Auxiliar de Psicología Social y Comunitaria","Auxiliar en Seguridad y Salud en el Trabajo"] },
+  { name: "Educación y deportes", items: ["Auxiliar de Educación para la Primera Infancia","Auxiliar de Entrenamiento Deportivo"] },
+  { name: "Servicios e idiomas", items: ["Belleza Integral","Auxiliar Contable Sistematizado","Programa de Inglés (A1–B1, MCER)"] },
+  { name: "Agro e industrial", items: ["Asistente en Veterinaria","Auxiliar Agropecuario o Zootecnia","Operador de Equipos Pesados"] },
+  { name: "Adultos", items: ["Validación del Bachillerato para Jóvenes y Adultos"] },
+];
+
+const TAGS = {
+  "Auxiliar en Enfermería": "Salud",
+  "Auxiliar en Servicios Farmacéuticos": "Salud",
+  "Auxiliar de Psicología Social y Comunitaria": "Salud",
+  "Auxiliar en Seguridad y Salud en el Trabajo": "Salud",
+  "Auxiliar de Educación para la Primera Infancia": "Educación",
+  "Auxiliar de Entrenamiento Deportivo": "Deportes",
+  "Belleza Integral": "Servicios",
+  "Auxiliar Contable Sistematizado": "Servicios",
+  "Programa de Inglés (A1–B1, MCER)": "Idiomas",
+  "Asistente en Veterinaria": "Agro",
+  "Auxiliar Agropecuario o Zootecnia": "Agro",
+  "Operador de Equipos Pesados": "Industrial",
+  "Validación del Bachillerato para Jóvenes y Adultos": "Adultos",
+};
+
+const MYTHS = [
+  { mito: "“Si estudio el técnico, me convierto en psicólogo.”", realidad: "No. El programa desarrolla competencias para funciones auxiliares de apoyo en procesos sociales y comunitarios. No otorga tarjeta profesional ni habilita para la psicología clínica autónoma." },
+  { mito: "“Un auxiliar en esta área no puede trabajar.”", realidad: "Sí puede: apoyo técnico en fundaciones, proyectos comunitarios y programas de prevención y educación social, respetando los límites de su competencia." },
+  { mito: "“Para estudiar esto primero debo ser psicólogo.”", realidad: "No. Es una puerta de entrada para líderes sociales, educadores o personas con bachillerato finalizado que desean formarse formalmente; no es una especialización universitaria." },
+  { mito: "“Todo lo de psicología solo lo hace un psicólogo.”", realidad: "Los equipos sociales requieren roles diversos. El auxiliar es vital para el trabajo operativo y la participación comunitaria en territorio." },
+  { mito: "“La formación técnica laboral no sirve para seguir estudiando.”", realidad: "Sí sirve. Es un primer peldaño certificado del ETDH que fortalece el perfil laboral y la continuidad en estudios técnicos y tecnológicos." },
+  { mito: "“Hay que vivir en la cabecera municipal para estudiar.”", realidad: "No. La oferta está diseñada para estudiantes rurales de Arjona y El Banco, con horarios y materiales pensados para la zona." },
+];
+
+const CYCLE = [
+  { t: "Observar", d: "Reconocimiento de situaciones y caracterización comunitaria." },
+  { t: "Orientar", d: "Identificar casos y guiar hacia redes de apoyo institucionales." },
+  { t: "Acompañar", d: "Apoyo en actividades de integración grupal y convivencia." },
+  { t: "Promover", d: "Participación en campañas de prevención y bienestar." },
+  { t: "Participar", d: "Colaboración directa en proyectos sociales en territorio." },
+  { t: "Articular", d: "Trabajo conjunto y subordinado con equipos interdisciplinarios." },
+  { t: "Remitir", d: "Traslado inmediato al profesional cuando el caso lo exige." },
+];
+
+const VENN = [
+  { t: "Vocación y necesidad real", d: "Las comunidades necesitan gestores operativos capacitados en el terreno, no solo buenas intenciones." },
+  { t: "Comprensión científica", d: "Aprender cómo funcionan los grupos y la comunicación humana minimiza la improvisación comunitaria." },
+  { t: "Escalabilidad ética", d: "Un excelente punto de partida para fortalecer la hoja de vida, validar la vocación social y respetar las fronteras profesionales." },
+];
+
+class Component extends DCLogic {
+  state = { area: 0, open: {}, name: "", phone: "", program: "Auxiliar en Enfermería", town: "Arjona (Cesar)", sent: false, cycle: 0, casePart: 1, venn: 0 };
+
+  allPrograms() {
+    return AREAS.slice(1).reduce((acc, a) => acc.concat(a.items), []);
+  }
+
+  renderVals() {
+    const s = this.state;
+    const list = AREAS[s.area].items || this.allPrograms();
+    const cyc = {};
+    CYCLE.forEach((c, i) => {
+      const on = s.cycle === i;
+      cyc["cy" + (i + 1)] = () => this.setState({ cycle: i });
+      cyc["cy" + (i + 1) + "bg"] = on ? "oklch(0.45 0.14 250)" : "oklch(0.99 0.004 95)";
+      cyc["cy" + (i + 1) + "fg"] = on ? "oklch(0.99 0.004 95)" : "oklch(0.3 0.03 255)";
+      cyc["cy" + (i + 1) + "bd"] = on ? "oklch(0.45 0.14 250)" : "oklch(0.86 0.02 250)";
+    });
+    const allOpen = MYTHS.every((m, i) => s.open[i]);
+    return {
+      ...cyc,
+      cycleNum: String(s.cycle + 1).padStart(2, "0"),
+      cycleTitle: CYCLE[s.cycle].t,
+      cycleDesc: CYCLE[s.cycle].d,
+      vennTitle: VENN[s.venn].t,
+      vennDesc: VENN[s.venn].d,
+      venn0: () => this.setState({ venn: 0 }),
+      venn1: () => this.setState({ venn: 1 }),
+      venn2: () => this.setState({ venn: 2 }),
+      venn0op: s.venn === 0 ? 0.92 : 0.5,
+      venn1op: s.venn === 1 ? 0.92 : 0.5,
+      venn2op: s.venn === 2 ? 0.92 : 0.5,
+      part1: s.casePart === 1,
+      part2: s.casePart === 2,
+      goPart1: () => this.setState({ casePart: 1 }),
+      goPart2: () => this.setState({ casePart: 2 }),
+      p1bg: s.casePart === 1 ? "oklch(0.62 0.16 45)" : "transparent",
+      p1fg: s.casePart === 1 ? "oklch(0.99 0.004 95)" : "oklch(0.4 0.02 250)",
+      p2bg: s.casePart === 2 ? "oklch(0.5 0.11 145)" : "transparent",
+      p2fg: s.casePart === 2 ? "oklch(0.99 0.004 95)" : "oklch(0.4 0.02 250)",
+      toggleAll: () => this.setState(p => {
+        const every = MYTHS.every((m, i) => p.open[i]);
+        const next = {};
+        MYTHS.forEach((m, i) => { next[i] = !every; });
+        return { open: next };
+      }),
+      toggleAllLabel: allOpen ? "Ocultar todas las realidades" : "Ver todas las realidades",
+      areas: AREAS.map((a, i) => ({
+        name: a.name,
+        select: () => this.setState({ area: i }),
+        bg: i === s.area ? "oklch(0.45 0.14 250)" : "transparent",
+        fg: i === s.area ? "oklch(0.99 0.004 95)" : "oklch(0.4 0.02 250)",
+        border: i === s.area ? "oklch(0.45 0.14 250)" : "oklch(0.85 0.02 250)",
+      })),
+      programs: list.map((n, i) => ({ num: String(i + 1).padStart(2, "0"), name: n, tag: TAGS[n] || "" })),
+      myths: MYTHS.map((m, i) => ({
+        mito: m.mito,
+        realidad: m.realidad,
+        opacity: s.open[i] ? 1 : 0.28,
+        hint: s.open[i] ? "Toca para ocultar" : "Toca para leer la realidad",
+        toggle: () => this.setState(p => ({ open: { ...p.open, [i]: !p.open[i] } })),
+      })),
+      allPrograms: this.allPrograms(),
+      name: s.name, phone: s.phone, program: s.program, town: s.town,
+      setName: e => this.setState({ name: e.target.value }),
+      setPhone: e => this.setState({ phone: e.target.value }),
+      setProgram: e => this.setState({ program: e.target.value }),
+      setTown: e => this.setState({ town: e.target.value }),
+      submit: () => this.setState({ sent: true }),
+      reset: () => this.setState({ sent: false, name: "", phone: "" }),
+      sent: s.sent,
+      notSent: !s.sent,
+      thanks: (s.name ? s.name.split(" ")[0] + ", tu" : "Tu") + " cupo está reservado para " + s.program + ".",
+    };
+  }
+}
+</script>
+</body>
+</html>
